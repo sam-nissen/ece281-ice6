@@ -119,7 +119,7 @@ begin
 		wait for k_clk_period;		
 		w_reset <= '0';
 		
-		wait for 160 ns; -- let the TDM do its work
+		wait; -- let the TDM do its work
 	end process;	
 	-----------------------------------------------------	
 	
